@@ -75,7 +75,7 @@ def main():
             conf_file = a
         elif o == "-u":
             v_uuid = a
-        elif o == "-s":
+        elif o == "-p":
             v_path = a
 
     # overwrite stuff with conf file
