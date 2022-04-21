@@ -14,7 +14,8 @@ Clean, dockerized v2ray(Websocket + TLS) + Nginx + Let's Encrypt with official a
 ### Building
 - Clone this repo.
 - Run `python setup.py -h` for directions.
-- For example, if your full domain name is `aaa.bb.c` and your email is `d@e.f` then run `python setup.py -d bb.c -s aaa -e d@e.f`
+- For example, if your full domain name is `aaa.bb.c` and your email is `d@e.f` then run `python setup.py -d bb.c -s aaa -e d@e.f` (Not working)
+- python setup.py -c example.conf
 - To start over, run `git reset --hard`. Don't run this with a running build or you will lose your existing config!
 ### README!
 - Do NOT run the python script as root or Nginx won't start.
