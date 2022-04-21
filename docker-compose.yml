@@ -36,6 +36,6 @@ services:
                 restart: always
                 networks:
                         - lan
-                command: ["v2ray","-config=/etc/v2ray/config.json"]
+                command: ["v2ray", "run", "-c", "/etc/v2ray/config.json"]
                 volumes:
                         - ./v2ray:/etc/v2ray
