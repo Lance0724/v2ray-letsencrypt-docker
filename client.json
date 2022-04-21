@@ -93,8 +93,8 @@
             "users": [
               {
                 "id": "{{ uuid }}",
-                "alterId": 64,
-                "security": "none"
+                "alterId": 0,
+                "security": "auto"
               }
             ]
           }
