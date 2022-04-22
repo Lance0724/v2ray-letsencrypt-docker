@@ -3,7 +3,7 @@
     {
       "port": 8080,
       "listen":"0.0.0.0",
-      "protocol": "vmess",
+      "protocol": "vless",
       "settings": {
         "clients": [
           {
