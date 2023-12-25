@@ -30,12 +30,12 @@ services:
                 volumes:
                         - ./nginx:/config
         
-        v2ray:
-                container_name: v2ray
-                image: teddysun/v2ray
+        xray:
+                container_name: xray
+                image: teddysun/xray
                 restart: always
                 networks:
                         - lan
-                command: ["v2ray", "run", "-c", "/etc/v2ray/config.json"]
+                command: ["xray", "run", "-c", "/etc/xray/config.json"]
                 volumes:
-                        - ./v2ray:/etc/v2ray
+                        - ./Xray:/etc/xray

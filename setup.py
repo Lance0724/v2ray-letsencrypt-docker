@@ -26,11 +26,6 @@ def usage():
     print("Usage: python setup.py [options]\n\n\
     options:\n\
         -h : show usage.\n\
-        -d domain : your domain - mydomain.tld.\n\
-        [-u uuid] : the uuid of the user. Optional.\n\
-        [-p path] : the path of the websocket. Optional.\n\
-        [-s subdomain] : your subdomain. Optional.\n\
-        [-e email] : your email. Optional.\n\
         [-c conf] : load config from file. Optional.\n\n")
 
 def main():

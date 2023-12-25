@@ -1,8 +1,8 @@
-# v2ray-letsencrypt-docker
+# xray-letsencrypt-docker
 Clean, dockerized v2ray(Websocket + TLS) + Nginx + Let's Encrypt with official and well-maintained docker containers. No BS private containers.
 
 ## Supports:
-- v2ray with websocket + TLS protocol using the [official v2ray docker image](https://hub.docker.com/r/v2ray/official/).
+- xray with websocket + TLS protocol using the [official v2ray docker image](https://hub.docker.com/r/xray/official/).
 - Nginx frontend and **auto-renewing** Let's Encrypt certificate using the popular [linuxserver/letsencrypt docker image](https://hub.docker.com/r/linuxserver/letsencrypt/).
 - This project basically generates UUID, random paths and uses python to process the templates.
 ## Usage:
