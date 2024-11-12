@@ -116,13 +116,13 @@ def main():
     with open("docker-compose.yml", "w") as file:
         file.write(output)
 
-    # process v2ray/config
-    with open("v2ray/config.json", "r") as file:
+    # process Xray/config
+    with open("Xray/config.json", "r") as file:
         template = jinja2.Template(file.read())
     
     output = template.render(uuid = v_uuid, path = v_path)
 
-    with open("v2ray/config.json", "w") as file:
+    with open("Xray/config.json", "w") as file:
         file.write(output)
 
     # process nginx/nginx/site-confs/default
